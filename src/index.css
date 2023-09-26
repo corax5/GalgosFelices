@@ -11,3 +11,135 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.header {
+  display: flex;
+  height: 132px;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 3px solid black;
+  margin-bottom: 35px;
+}
+
+.layout {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.header .logo {
+  flex-grow: 2;
+  display: flex;
+}
+
+.header .logo span {
+  display: block;
+  font-size: 90px;
+  font-weight: bolder;
+  margin-top: -8px;
+}
+
+.header nav ul {
+  height: 132px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+}
+
+.header li {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 17px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.header li a {
+  color: black;
+  text-decoration: none;
+  transition: all 300ms;
+}
+
+.header .active,
+.header a:hover {
+  color: #6aee71
+}
+
+.footer {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 35px;
+  border-top: 3px solid rgb(255, 252, 252);
+  padding-top: 45px;
+  background-color: #dd65f5;
+  min-height: 150px;
+  line-height: 7px;
+  color: #444;
+  margin-top: 80px;
+  min-height: 40px;
+}
+
+.content {
+  min-height: 400px;
+}
+
+.home h1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 300;
+  font-size: 35px;
+  margin-top: 80px;
+}
+
+.home h2 {
+  color: rgb(98, 97, 97);
+  font-weight: lighter;
+}
+
+
+.home .title a {
+  padding: 7px;
+  border-radius: 5px;
+  color: rgb(33, 29, 29);
+  background-color: #b3c8c7;
+  text-decoration: none;
+  transition: all 300ms;
+}
+
+
+.home strong {
+  color: #dd65f5;
+}
+
+.home .title a:hover,
+input[type="submit"]:hover,
+button :hover {
+  background-color: rgb(97, 169, 174);
+}
+
+.page .heading,
+.home .heading {
+  font-size: 40px;
+  font-weight: 500;
+  color: black;
+  margin-bottom: 0px;
+}
+
+.page .heading {
+  font-size: 55px;
+  font-weight: bold;
+}
+
+.home p {
+  color: rgb(26, 137, 26)
+}
+
+
+#logo {
+  width: 400px;
+  height: 150px;
+  margin-top: 10px;
+}
+
+#botoncontacto {
+  margin-right: 20px;
+}
