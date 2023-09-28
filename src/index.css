@@ -14,7 +14,7 @@ code {
 
 .header {
   display: flex;
-  height: 132px;
+
   justify-content: center;
   align-items: center;
   border-bottom: 3px solid black;
@@ -22,12 +22,11 @@ code {
 }
 
 .layout {
-  width: 85%;
+
   margin: 0 auto;
 }
 
 .header .logo {
-  flex-grow: 2;
   display: flex;
 }
 
@@ -71,7 +70,7 @@ code {
   margin-top: 35px;
   border-top: 3px solid rgb(255, 252, 252);
   padding-top: 45px;
-  background-color: #dd65f5;
+  background-color: #dda6e9;
   min-height: 150px;
   line-height: 7px;
   color: #444;
@@ -87,7 +86,7 @@ code {
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-weight: 300;
   font-size: 35px;
-  margin-top: 80px;
+
 }
 
 .home h2 {
@@ -102,7 +101,7 @@ code {
   color: rgb(33, 29, 29);
   background-color: #b3c8c7;
   text-decoration: none;
-  transition: all 300ms;
+
 }
 
 
@@ -137,9 +136,111 @@ button :hover {
 #logo {
   width: 400px;
   height: 150px;
-  margin-top: 10px;
+  margin-top: 30px;
 }
 
 #botoncontacto {
   margin-right: 20px;
+}
+
+.logo {
+  align-items: center;
+
+}
+
+
+
+.category-name {
+  font-size: 55px;
+  color: #dd65f5;
+  font-family: 'Dancing Script';
+  font-weight: bold;
+}
+
+.card-list {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+}
+
+
+.basic-card {
+
+  font-size: medium;
+  position: relative;
+  width: 300px;
+  /* Ancho deseado */
+  height: 400px;
+  /* Altura deseada */
+  margin: 10px;
+  /* Espacio entre las tarjetas (ajusta según tus preferencias) */
+
+  -webkit-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.3);
+  -o-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.3);
+}
+
+.basic-card .card-content {
+  padding: 30px;
+}
+
+.basic-card .card-title {
+  font-size: 25px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.basic-card .card-text {
+  line-height: 1.6;
+}
+
+.basic-card .card-link {
+  padding: 10px;
+  width: -webkit-fill-available;
+}
+
+.basic-card .card-link a {
+  text-decoration: none;
+  position: relative;
+  padding: 10px 0px;
+}
+
+
+
+.basic-card .card-link a:after {
+  top: 30px;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  width: 0;
+
+  -webkit-transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  -moz-transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  -o-transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+}
+
+.basic-card .card-link a:hover:after {
+  width: 100%;
+  left: 0;
+}
+
+
+.basic-card-aqua {
+  background-image: linear-gradient(to bottom right, #7ee2ac, #99a3d4);
+}
+
+.basic-card-aqua .card-content,
+.basic-card .card-link a {
+  color: #edf2f3;
+}
+
+.basic-card-aqua .card-link {
+  border-top: 1px solid #c0e7e3;
+}
+
+.basic-card-aqua .card-link a:after {
+  background: #fff;
 }
