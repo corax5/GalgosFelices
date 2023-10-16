@@ -70,7 +70,7 @@ code {
   margin-top: 35px;
   border-top: 3px solid rgb(255, 252, 252);
   padding-top: 45px;
-  background-color: #dda6e9;
+  background-color: º #dda6e9;
   min-height: 150px;
   line-height: 7px;
   color: #444;
@@ -243,4 +243,12 @@ button :hover {
 
 .basic-card-aqua .card-link a:after {
   background: #fff;
+}
+
+h2 {
+  color: #dd65f5;
+}
+
+h2:hover {
+  color: #6aee71;
 }
