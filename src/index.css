@@ -12,6 +12,11 @@ code {
     monospace;
 }
 
+h1 {
+  font-size: 40px;
+  height: fit-content;
+}
+
 .header {
   display: flex;
 
@@ -37,12 +42,18 @@ code {
   margin-top: -8px;
 }
 
+#logo {
+  position: relative;
+  left: -30px
+}
+
 .header nav ul {
   height: 132px;
   display: flex;
   justify-content: flex-end;
   align-items: center;
   list-style: none;
+  color: #dd65f5
 }
 
 .header li {
@@ -85,7 +96,7 @@ code {
 .home h1 {
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-weight: 300;
-  font-size: 35px;
+  font-size: 30px;
 
 }
 
@@ -94,6 +105,12 @@ code {
   font-weight: lighter;
 }
 
+.home h2 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 300;
+  font-size: 30px;
+  color: #fff;
+}
 
 .home .title a {
   padding: 7px;
@@ -247,8 +264,4 @@ button :hover {
 
 h2 {
   color: #dd65f5;
-}
-
-h2:hover {
-  color: #6aee71;
 }

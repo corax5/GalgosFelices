@@ -7,11 +7,11 @@ export const Inicio = () => {
 
         <div className='home'>
 
-            <h1>
+            <h2>
                 <strong>En nuestra fundación</strong> Nuestros objetivos se basan en el cuidado, mantenimiento y ayuda a perros abandonados, maltratados, vagabundos y sin dueño o que por cualquier motivo precisen de algún tipo de asistencia para evitar su padecimiento natural.
 
                 Buscamos nuevos hogares a los perros que se quedan sin ellos o constituyan una carga para sus propietarios.
-            </h1>
+            </h2>
 
             <h2 className='title'>
                 <div className='titulo2'> <strong> GALGOS FELICES FUNDACIÓN</strong> </div> <br />
