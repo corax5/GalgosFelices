@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Ayudar = () => {
     return (
-        <div>
+        <>
             <div className="card-category-2">
                 <span className="category-name">¿Como ayudar?</span> <br /><br />
                 <div className="card-list-container">
@@ -67,7 +67,7 @@ export const Ayudar = () => {
                                 </div>
 
                                 <div class="card-link">
-                                    <a href="#" title="Read Full"><span>Saber más</span></a>
+                                    <a href="https://www.teaming.net/group/list?q=galgos%20felices%20fundacion" title="Read Full"><span>Saber más</span></a>
                                 </div>
                             </div>
                         </li>
@@ -92,6 +92,6 @@ export const Ayudar = () => {
                 </div>
             </div>
             <br />
-        </div>
+        </>
     );
 }

@@ -1,8 +1,15 @@
-import React from 'react'
+import React from 'react';
+
 
 export const Footer = () => {
+
     return (
-        <footer className='footer'>Created by Irian Cortés 2023
+        <footer> <div className="footer-content">
+            <p className='created'>Created by Icortesdev 2023</p>
+        </div>
+
+
+
         </footer>
     )
 }

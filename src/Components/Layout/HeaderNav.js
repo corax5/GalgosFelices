@@ -3,12 +3,13 @@ import { NavLink } from 'react-router-dom'
 
 
 
+
 export const HeaderNav = () => {
     return (
         <header className='header'>
             <div className='logo'>
                 <span><img src='/logo1-removebg-preview.png' alt='' id='logo'></img></span>
-                <h1>Galgos Felices</h1>
+                <span className='titulo' style={{ fontFamily: 'dancing script' }}>Galgos Felices</span>
             </div>
             <div className='router'>
                 <nav>
