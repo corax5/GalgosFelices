@@ -4,7 +4,7 @@ export const Ayudar = () => {
     return (
         <>
             <div className="card-category-2">
-                <span className="category-name">¿Como ayudar?</span> <br /><br />
+                <h2 className="category-name">¿Como ayudar?</h2> <br /><br />
                 <div className="card-list-container">
                     <ul className="card-list">
                         <li>

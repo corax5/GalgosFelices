@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebook } from '@fortawesome/free-brands-svg-icons';
+import { faFacebook, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import { faYoutube } from '@fortawesome/free-brands-svg-icons';
 import { faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { faTwitter } from '@fortawesome/free-brands-svg-icons';
@@ -15,7 +15,9 @@ export const Contacto = () => {
     };
 
     return (
-        <> <h2>Contacto:</h2>
+        <>
+            <h2>Contacto:</h2>
+            <p>Disponemos de las siguientes redes sociales pero si quieres ponerte en contacto con nosotros, lo más rápido y sencillo es que nos mandes un WhatsApp al teléfono: <strong style={{ color: '#44e04b' }}><FontAwesomeIcon icon={faWhatsapp} /> 670373930</strong>       dinos en qué podemos ayudarte y te contestaremos lo más pronto posible.</p>
             <ul className="wrapper">
                 <li className="icon facebook" onClick={() => openInNewTab('https://www.facebook.com/people/Galgos-Felices-Fundacion/100066436192452/')}>
                     <span className="tooltip">Facebook</span>

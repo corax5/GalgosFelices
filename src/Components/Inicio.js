@@ -14,11 +14,11 @@ export const Inicio = () => {
                 Buscamos nuevos hogares a los perros que se quedan sin ellos o constituyan una carga para sus propietarios.
             </h2>
             <br />
-            <h2 className='title'>
+            <h1 className='title'>
                 <div className='titulo2'> <strong> GALGOS FELICES FUNDACIÓN</strong> </div> <br />
                 <Link to="/contacto" id='botoncontacto'>Contacta con nosotros</Link>
                 <Link to="/¿ComoAyudar?">Como ayudar</Link>
-            </h2>
+            </h1>
             <br />
             <hr />
             <section className='last-works'>

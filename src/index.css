@@ -17,6 +17,26 @@ h1 {
   height: fit-content;
 }
 
+h2 {
+  color: #dd65f5;
+  font-family: 'Dancing Script';
+  font-size: 80px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  margin-left: 45px;
+  margin-top: 45px;
+  text-align: left;
+  text-decoration: underline;
+}
+
+p {
+  margin-left: 50px;
+  margin-left: 50px;
+
+}
+
 .titulo {
   display: flex;
 }
@@ -72,7 +92,7 @@ h1 {
 
 .header .active,
 .header a:hover {
-  color: #6aee71
+  color: #44e04b
 }
 
 .footer {
@@ -179,7 +199,7 @@ button :hover {
 
 
 .category-name {
-  font-size: 55px;
+  font-size: 80px;
   color: #dd65f5;
   font-family: 'Dancing Script';
   font-weight: bold;
@@ -220,6 +240,7 @@ button :hover {
 
 .basic-card .card-text {
   line-height: 1.6;
+  margin: 0%;
 }
 
 .basic-card .card-link {
@@ -273,9 +294,7 @@ button :hover {
   background: #fff;
 }
 
-h2 {
-  color: #dd65f5;
-}
+
 
 .icon {
   display: inline-block;
@@ -299,7 +318,7 @@ h2 {
 .wrapper {
   display: inline-flex;
   list-style: none;
-  margin-top: 100px;
+  margin-top: 30px;
 
 }
 
@@ -396,4 +415,130 @@ h2 {
 
 .rrss {
   color: red
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+.footer-section {
+  border-top: 1px solid #373636;
+  position: relative;
+}
+
+
+
+
+.copyright-area {
+
+  padding: 25px 0;
+}
+
+.copyright-text p {
+  margin: 0;
+  font-size: 14px;
+  color: #878787;
+}
+
+.copyright-text p a {
+  color: #0a0a09;
+}
+
+.wrapper2 {
+  display: inline-flex;
+  list-style: none;
+  margin-top: 10px;
+
+}
+
+.wrapper2 .icon {
+  position: relative;
+  background: #9a63a4;
+  border-radius: 50%;
+  padding: 5px;
+  margin: 5px;
+  width: 25px;
+  height: 25px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper2 .tooltip {
+  position: absolute;
+  top: 0;
+  font-size: 14px;
+  background: #b76c6c;
+  color: #ffffff;
+  padding: 5px 8px;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper2 .tooltip::before {
+  position: absolute;
+  content: "";
+  height: 8px;
+  width: 8px;
+  background: #ffffff;
+  bottom: -3px;
+  left: 50%;
+  transform: translate(-50%) rotate(45deg);
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper2 .icon:hover .tooltip {
+  top: -45px;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.wrapper2 .icon:hover span,
+.wrapper2 .icon:hover .tooltip {
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+}
+
+.wrapper2 .facebook:hover,
+.wrapper2 .facebook:hover .tooltip,
+.wrapper2 .facebook:hover .tooltip::before {
+  background: #1877F2;
+  color: #ffffff;
+}
+
+.wrapper2 .twitter:hover,
+.wrapper2 .twitter:hover .tooltip,
+.wrapper2 .twitter:hover .tooltip::before {
+  background: #1DA1F2;
+  color: #ffffff;
+}
+
+.wrapper2 .instagram:hover,
+.wrapper2 .instagram:hover .tooltip,
+.wrapper2 .instagram:hover .tooltip::before {
+  background: #E4405F;
+  color: #ffffff;
+}
+
+.wrapper2 .github:hover,
+.wrapper2 .github:hover .tooltip,
+.wrapper2 .github:hover .tooltip::before {
+  background: #333333;
+  color: #ffffff;
+}
+
+.wrapper2 .youtube:hover,
+.wrapper2 .youtube:hover .tooltip,
+.wrapper2 .youtube:hover .tooltip::before {
+  background: #CD201F;
+  color: #ffffff;
 }
