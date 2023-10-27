@@ -137,6 +137,7 @@ p {
   font-weight: lighter;
   margin-right: 50px;
   margin-left: 50px;
+  margin-top: 15px;
 }
 
 .home h2 {
@@ -556,6 +557,11 @@ ul {
   font-weight: bolder;
 }
 
+.openModalBtn:hover {
+  background-color: #dd65f5;
+
+}
+
 .modalBackground {
   position: fixed;
   top: 0;
@@ -573,7 +579,8 @@ ul {
   width: 500px;
   height: 500px;
   border-radius: 12px;
-  background-color: white;
+  background-image: linear-gradient(to bottom right, #7ee2ac, #99a3d4);
+  ;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   display: flex;
   flex-direction: column;
@@ -608,5 +615,51 @@ ul {
   display: flex;
   margin-top: 15px;
   font-size: 18px;
+}
 
+.news {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-bottom: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: #dd65f5
+}
+
+.blog:hover {
+  color: #44e04b;
+}
+
+.blog {
+  cursor: pointer;
+}
+
+.element-item {
+  background-color: #ffffff49;
+  padding: 0;
+  margin: 10px;
+  width: calc(25% - 20px);
+  /* Reducimos el ancho de los contenedores */
+  display: inline-block;
+  position: relative;
+}
+
+.item-image {
+  width: 100%;
+  padding-bottom: 150%;
+  background-size: cover;
+  background-position: center;
+}
+
+.item-title {
+  margin: 10px;
+  padding: 0px;
+  height: 40px;
+  overflow: hidden;
+  color: #0a0a09;
 }

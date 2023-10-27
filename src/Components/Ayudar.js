@@ -1,10 +1,12 @@
 import React from 'react'
 import { Modal } from './Modal';
 import { useState } from 'react';
+import { ModalApadrina } from './ModalApadrina';
 
 export const Ayudar = () => {
 
     const [modalOpen, setModalOpen] = useState(false);
+    const [modalOpen1, setmodalOpen1] = useState(false);
 
     return (
         <>
@@ -79,7 +81,7 @@ export const Ayudar = () => {
                                         Solo tienes que registrarte en Teaming, si no lo estás y unirte a nuestro grupo:
                                         <br />
                                         <br />
-                                        <a href='https://www.teaming.net/group/list?q=galgos%20felices%20fundacion'>GRUPOR DE TEAMING</a>
+                                        <a href='https://www.teaming.net/group/list?q=galgos%20felices%20fundacion' target="_blank">GRUPOR DE TEAMING</a>
                                     </p>
                                 </div>
 
@@ -111,7 +113,16 @@ export const Ayudar = () => {
                                 </div>
 
                                 <div className="card-link">
-                                    <a href="#" title="Read Full"><span>Saber más</span></a>
+                                    <button
+                                        className="openModalBtn"
+                                        onClick={() => {
+                                            setmodalOpen1(true);
+                                        }}
+                                    >
+                                        Saber más
+                                    </button>
+
+                                    {modalOpen1 && <ModalApadrina setOpenModal={setmodalOpen1} />}
                                 </div>
                             </div>
                         </li>
