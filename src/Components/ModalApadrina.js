@@ -16,8 +16,8 @@ export const ModalApadrina = ({ setOpenModal }) => {
                     </button>
                 </div>
                 <div className="title">
-                    <h4>Si quieres ayudarnos apadrinando : </h4>
-                    <br />
+                    <h4 style={{ fontSize: '20px' }}>Si quieres ayudarnos apadrinando : </h4>
+
                 </div>
                 <div className="bodymodal1">
                     Los que más te necesitan son sobre todo aquellos que tienen enfermedades crónicas, cirugías pendientes, alimentación especial, cachorros, o incluso peluditos que por su edad o circunstancias, llevan años viviendo en la fundación. Por ello cuando apadrinas uno de nuestros perros, entregas un trocito de tu corazón para ayudarle a tener un día a día más feliz.

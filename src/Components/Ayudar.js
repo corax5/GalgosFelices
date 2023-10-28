@@ -21,6 +21,7 @@ export const Ayudar = () => {
                                 <div className="card-content">
                                     <span className="card-title"><strong>Donación via cuenta bancaria</strong></span>
                                     <p className="card-text">
+                                        <br />
                                         Tu aportación es muy valiosa para que podamos seguir adelante con nuestro proyecto, rescatando perros del abandono y el maltrato.
                                         Si quieres ayudarnos  mediante transferencia bancaria:
                                         <br />
@@ -48,6 +49,7 @@ export const Ayudar = () => {
                                 <div className="card-content">
                                     <span className="card-title"><strong>Donación via Bizum</strong></span>
                                     <p className="card-text">
+                                        <br />
                                         Accede a Bizum desde la app de tu banco, busca la opción «Enviar y Recibir dinero con bizum«,
                                         <br />
                                         teclea la cantidad de dinero que quieras enviar y como destinatario, este número de teléfono:
@@ -74,8 +76,9 @@ export const Ayudar = () => {
                             <div className="basic-card basic-card-aqua">
                                 <div className="card-content">
                                     <span className="card-title"><strong>Unete a Teaming</strong> </span>
+                                    <br />
                                     <p className="card-text">
-
+                                        <br />
                                         Con Teaming puedes donar un euro al mes con solo unirte al grupo de Galgos Felices Fundación.
 
                                         Solo tienes que registrarte en Teaming, si no lo estás y unirte a nuestro grupo:
@@ -105,6 +108,7 @@ export const Ayudar = () => {
                                 <div className="card-content">
                                     <span className="card-title"><strong>Apadrina</strong></span>
                                     <p className="card-text">
+                                        <br />
                                         El apadrinar un animal es mucho más de lo que te imaginas, creas un vínculo especial con uno de nuestros peludos, formas parte de su vida y aunque estés lejos te conviertes en su familia mientras esperan a encontrar un hogar.
 
 

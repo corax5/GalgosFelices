@@ -10,7 +10,7 @@ export const Adopta = () => {
 
                 Algunos hace poco que llegaron. Otros llevan con nosotros bastante tiempo, pero todos necesitan una familia, mientras tanto, nosotros seremos su familia.
 
-                Si te interesa adoptar alguno de nuestros peluditos, mándanos un <strong style={{ color: '#44e04b' }}>WhatsApp al teléfono: 670373930 <FontAwesomeIcon icon={faWhatsapp} /></strong> y en breve te mandaremos el cuestionario.
+                Si te interesa adoptar alguno de nuestros peluditos, mándanos un <strong style={{ color: '#44e04b' }}>WhatsApp al teléfono: <a className='enlace' href='https://wa.me/+34670373930' target="_blank">670373930</a> <FontAwesomeIcon icon={faWhatsapp} /></strong> y en breve te mandaremos el cuestionario.
             </p>
             <h3 style={{ color: '#dd65f5' }}>Nuestros Amigos en adopción:</h3>
 

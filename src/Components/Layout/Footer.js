@@ -1,4 +1,4 @@
-import { faInstagram, faFacebook, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons';
+import { faInstagram, faFacebook, faTwitter, faYoutube, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 
@@ -31,6 +31,10 @@ export const Footer = () => {
                     <li className="icon youtube" onClick={() => openInNewTab('https://www.youtube.com/channel/UC-HutoED0L3mSV4tX5zfClg')}>
                         <span className="tooltip">Youtube</span>
                         <span><FontAwesomeIcon icon={faYoutube} /></span>
+                    </li>
+                    <li className="icon whatsapp" onClick={() => openInNewTab('https://wa.me/+34670373930')}>
+                        <span className="tooltip">WhatsApp</span>
+                        <span><FontAwesomeIcon icon={faWhatsapp} /></span>
                     </li>
                 </ul>
 

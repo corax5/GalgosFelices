@@ -7,6 +7,16 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+html {
+  margin: 0;
+}
+
+.layout {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -37,23 +47,17 @@ p {
 
 }
 
-.titulo {
-  display: flex;
-}
+
 
 .header {
+  height: 100%;
   display: flex;
-
   justify-content: center;
   align-items: center;
   border-bottom: 3px solid black;
   margin-bottom: 35px;
 }
 
-.layout {
-
-  margin: 0 auto;
-}
 
 .header .logo {
   display: flex;
@@ -66,9 +70,8 @@ p {
   margin-top: -8px;
 }
 
-
 .header nav ul {
-  height: 132px;
+
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -97,7 +100,6 @@ p {
 
 .footer {
   min-height: 100px;
-  /* Altura mínima del footer */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -199,7 +201,17 @@ button :hover {
 
 }
 
+.fundacion {
+  filter: none;
+}
 
+.enlace {
+  color: #44e04b;
+}
+
+.enlace:hover {
+  color: #0a0a09
+}
 
 .category-name {
   font-size: 80px;
@@ -220,12 +232,8 @@ button :hover {
   font-size: medium;
   position: relative;
   width: 300px;
-  /* Ancho deseado */
   height: 400px;
-  /* Altura deseada */
   margin: 10px;
-  /* Espacio entre las tarjetas (ajusta según tus preferencias) */
-
   -webkit-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.3);
   -o-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.3);
@@ -257,29 +265,6 @@ button :hover {
   padding: 10px 0px;
 }
 
-
-
-.basic-card .card-link a:after {
-  top: 30px;
-  content: "";
-  display: block;
-  height: 2px;
-  left: 50%;
-  position: absolute;
-  width: 0;
-
-  -webkit-transition: width 0.3s ease 0s, left 0.3s ease 0s;
-  -moz-transition: width 0.3s ease 0s, left 0.3s ease 0s;
-  -o-transition: width 0.3s ease 0s, left 0.3s ease 0s;
-  transition: width 0.3s ease 0s, left 0.3s ease 0s;
-}
-
-.basic-card .card-link a:hover:after {
-  width: 100%;
-  left: 0;
-}
-
-
 .basic-card-aqua {
   background-image: linear-gradient(to bottom right, #7ee2ac, #99a3d4);
 }
@@ -304,25 +289,12 @@ button :hover {
   color: #c0e7e3;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-*:focus,
-*:active {
-  outline: none !important;
-  -webkit-tap-highlight-color: transparent;
-}
-
 
 
 .wrapper {
   display: inline-flex;
   list-style: none;
   margin-top: 30px;
-
 }
 
 .wrapper .icon {
@@ -416,6 +388,13 @@ button :hover {
   color: #ffffff;
 }
 
+.wrapper2 .whatsapp:hover,
+.wrapper2 .whatsapp:hover .tooltip,
+.wrapper2 .whatsapp:hover .tooltip::before {
+  background: #44e04b;
+  color: #ffffff;
+}
+
 .rrss {
   color: red
 }
@@ -429,9 +408,6 @@ ul {
   border-top: 1px solid #373636;
   position: relative;
 }
-
-
-
 
 .copyright-area {
 
@@ -591,7 +567,7 @@ ul {
 .modalContainer .title .h1 {
   display: inline-block;
   text-align: center;
-  margin-top: 10px;
+  margin-top: 2px;
   font-size: medium;
   font-size: smaller;
 }
@@ -613,7 +589,7 @@ ul {
 .modalContainer .bodymodal {
   flex: 50%;
   display: flex;
-  margin-top: 15px;
+  margin-top: 0px;
   font-size: 18px;
 }
 
@@ -644,7 +620,6 @@ a:hover {
   padding: 0;
   margin: 10px;
   width: calc(25% - 20px);
-  /* Reducimos el ancho de los contenedores */
   display: inline-block;
   position: relative;
 }
@@ -662,4 +637,54 @@ a:hover {
   height: 40px;
   overflow: hidden;
   color: #0a0a09;
+}
+
+#logo2 {
+  width: 500px;
+  height: 200px;
+}
+
+
+
+.content {
+  align-items: center;
+}
+
+.grid-container {
+  columns: 5 200px;
+  column-gap: 1.5rem;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.grid-container div {
+  width: 150px;
+  margin: 0 1.5rem 1.5rem 0;
+  display: inline-block;
+  width: 100%;
+  border: solid 2px black;
+  padding: 5px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  transition: all 0.25s ease-in-out;
+}
+
+.grid-container div:hover img {
+  filter: grayscale(0);
+}
+
+
+
+img {
+  width: 100%;
+  filter: grayscale(100%);
+  border-radius: 5px;
+  transition: all .25s ease-in-out;
+}
+
+.galer {
+  margin: 5px 0;
+  padding: 0;
+  text-align: center;
+  font-style: italic;
 }

@@ -17,7 +17,7 @@ export const Modal = ({ setOpenModal }) => {
                     </button>
                 </div>
                 <div className="title">
-                    <h4>Si quieres ayudarnos haciendo una donación :
+                    <h4 style={{ fontSize: '20px' }}>Si quieres ayudarnos haciendo una donación :
 
                     </h4>
                 </div>
