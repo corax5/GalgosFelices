@@ -166,7 +166,8 @@ p {
 .home .title a:hover,
 input[type="submit"]:hover,
 button :hover {
-  background-color: rgb(97, 169, 174);
+  background-color: rgb(120, 235, 243);
+  color: white
 }
 
 .page .heading,
@@ -687,4 +688,70 @@ img {
   padding: 0;
   text-align: center;
   font-style: italic;
+}
+
+#dog {
+  background: transparent url(http://www.dauid.us/wp-content/uploads/2013/06/murphy.png) 0px 0px no-repeat;
+  width: 145px;
+  height: 65px;
+  -webkit-animation: dog .7s steps(7) infinite;
+  -moz-animation: dog .7s steps(7) infinite;
+  -ms-animation: dog .7s steps(7) infinite;
+  -o-animation: dog .7s steps(7) infinite;
+  animation: dog .7s steps(7) infinite;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@-webkit-keyframes dog {
+  from {
+    background-position: 0px;
+  }
+
+  to {
+    background-position: -1015px;
+  }
+
+}
+
+@-moz-keyframes dog {
+  from {
+    background-position: 0px;
+  }
+
+  to {
+    background-position: -1015px;
+  }
+}
+
+@-ms-keyframes dog {
+  from {
+    background-position: 0px;
+  }
+
+  to {
+    background-position: -1015px;
+  }
+}
+
+@-o-keyframes dog {
+  from {
+    background-position: 0px;
+  }
+
+  to {
+    background-position: -1015px;
+  }
+}
+
+@keyframes dog {
+  from {
+    background-position: 0px;
+  }
+
+  to {
+    background-position: -1015px;
+  }
 }
