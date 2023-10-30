@@ -16,7 +16,6 @@ export const Ayudar = () => {
                 <div className="card-list-container">
                     <ul className="card-list">
                         <li>
-
                             <div className="basic-card basic-card-aqua">
                                 <div className="card-content">
                                     <span className="card-title"><strong>Donación via cuenta bancaria</strong></span>

@@ -18,8 +18,10 @@ export const Inicio = () => {
                 <div className='titulo2' style={{ fontFamily: "Frank Ruhl Libre2" }}> <strong> GALGOS FELICES FUNDACIÓN</strong> <div id="dog"></div>
                 </div>
                 <br />
-                <Link to="/contacto" id='botoncontacto'>Contacta con nosotros</Link>
-                <Link to="/¿ComoAyudar?">Como ayudar</Link>
+                <div className='botones'>
+                    <Link to="/contacto" id='botoncontacto'>Contacta con nosotros</Link>
+                    <Link to="/¿ComoAyudar?">Como ayudar</Link>
+                </div>
             </h1>
             <br />
             <br />

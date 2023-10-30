@@ -152,8 +152,8 @@ p {
 .home .title a {
   padding: 7px;
   border-radius: 5px;
-  color: rgb(33, 29, 29);
-  background-color: #b3c8c7;
+  color: rgb(255 255 255);
+  background-color: #dd65f5;
   text-decoration: none;
 
 }
@@ -166,7 +166,7 @@ p {
 .home .title a:hover,
 input[type="submit"]:hover,
 button :hover {
-  background-color: rgb(120, 235, 243);
+  background-color: rgb(159, 204, 247);
   color: white
 }
 
@@ -753,5 +753,200 @@ img {
 
   to {
     background-position: -1015px;
+  }
+}
+
+
+
+
+
+
+
+/* Estilos para pantallas más pequeñas (max-width: 667px) */
+@media (max-width: 667px) {
+  h1 {
+    font-size: 30px;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+
+  h3 {
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+
+  p {
+    margin-left: 20px;
+  }
+
+  .header {
+    height: auto;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .header .logo {
+    display: block;
+    text-align: center;
+  }
+
+  .header .logo span {
+    font-size: 60px;
+    margin-top: 0;
+  }
+
+  .header nav ul {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .header li {
+    font-size: 16px;
+    margin: 5px;
+  }
+
+  .footer {
+    padding: 10px;
+    min-height: auto;
+    text-align: center;
+    line-height: 1.5;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    min-height: 80px;
+  }
+
+  #dog {
+    background: transparent url(http://www.dauid.us/wp-content/uploads/2013/06/murphy.png) 0px 0px no-repeat;
+    width: 145px;
+    height: 65px;
+    animation: dog .7s steps(7) infinite;
+    position: absolute;
+    top: 1543px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .footer-section {
+    padding: 10px 0;
+  }
+
+  .copyright-text p {
+    font-size: 12px;
+  }
+
+  .icon {
+    font-size: 20px;
+    width: 35px;
+    height: 35px;
+  }
+
+  .wrapper .icon,
+  .wrapper2 .icon {
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+  }
+
+  .wrapper .tooltip,
+  .wrapper2 .tooltip {
+    font-size: 12px;
+    top: -30px;
+  }
+
+  .openModalBtn {
+    width: 150px;
+    font-size: 16px;
+  }
+
+  .modalContainer {
+    width: 90%;
+    height: auto;
+  }
+
+  .modalContainer .title .h1 {
+    font-size: 14px;
+  }
+
+  .element-item {
+    width: 100%;
+    margin: 0;
+  }
+
+  .item-image {
+    padding-bottom: 100%;
+  }
+
+  .item-title {
+    height: auto;
+  }
+
+  #logo2 {
+    width: 100%;
+    height: auto;
+  }
+
+  .card-list {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .category-name {
+    font-size: 41px;
+  }
+
+  .fundacion {
+    width: 268px;
+  }
+
+  .wrapper {
+    display: flex;
+    list-style: none;
+    margin-top: 30px;
+    justify-content: center;
+  }
+
+  .grid-container div {
+    width: 150px;
+    margin: 0;
+    display: inline-block;
+    width: 100%;
+    border: solid 2px black;
+    padding: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    transition: all 0.25s ease-in-out;
+  }
+
+  .grid-container {
+    columns: 5 200px;
+    column-gap: 1.5rem;
+    width: 90%;
+  }
+
+  .botones {
+    display: flex;
+  }
+}
+
+/* Pantallas grandes */
+@media (min-width: 768px) {
+  /* Aquí van las reglas CSS para pantallas grandes */
+}
+
+
+
+
+/* Aquí van las reglas CSS para pantallas extra grandes */
+@media (min-width: 1200px) {
+  #dog {
+    top: 720px;
   }
 }
