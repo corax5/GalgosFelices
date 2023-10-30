@@ -945,7 +945,17 @@ img {
   /* Aquí van las reglas CSS para pantallas grandes */
 }
 
+@font-face {
+  font-family: "Frank Ruhl Libre2";
+  src: url("ruta-a-tu-archivo-de-fuente.woff2") format("woff2");
 
+}
+
+@font-face {
+  font-family: "Dancing Script";
+  src: url("ruta-a-tu-archivo-de-fuente.woff2") format("woff2");
+
+}
 
 
 /* Aquí van las reglas CSS para pantallas extra grandes */
