@@ -700,10 +700,12 @@ img {
   -o-animation: dog .7s steps(7) infinite;
   animation: dog .7s steps(7) infinite;
   position: absolute;
-  top: 100%;
+  margin-top: 0;
   left: 50%;
+
   transform: translate(-50%, -50%);
 }
+
 
 @-webkit-keyframes dog {
   from {
@@ -830,14 +832,7 @@ img {
   }
 
   #dog {
-    background: transparent url(http://www.dauid.us/wp-content/uploads/2013/06/murphy.png) 0px 0px no-repeat;
-    width: 145px;
-    height: 65px;
-    animation: dog .7s steps(7) infinite;
-    position: absolute;
-    top: 1543px;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    margin-top: 126px;
   }
 
   .footer-section {
@@ -956,6 +951,6 @@ img {
 /* Aquí van las reglas CSS para pantallas extra grandes */
 @media (min-width: 1200px) {
   #dog {
-    top: 720px;
+    margin-top: 68px;
   }
 }

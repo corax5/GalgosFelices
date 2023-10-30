@@ -15,12 +15,13 @@ export const Inicio = () => {
             </h2>
 
             <h1 className='title'><img src='/logo1-removebg-preview.png' alt='' id='logo2'></img>
-                <div className='titulo2' style={{ fontFamily: "Frank Ruhl Libre2" }}> <strong> GALGOS FELICES FUNDACIÓN</strong> <div id="dog"></div>
+                <div className='titulo2' style={{ fontFamily: "Frank Ruhl Libre2" }}> <strong> GALGOS FELICES FUNDACIÓN</strong>
                 </div>
                 <br />
                 <div className='botones'>
                     <Link to="/contacto" id='botoncontacto'>Contacta con nosotros</Link>
                     <Link to="/¿ComoAyudar?">Como ayudar</Link>
+                    <div id="dog"></div>
                 </div>
             </h1>
             <br />
