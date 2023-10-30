@@ -768,8 +768,17 @@ img {
     font-size: 30px;
   }
 
+  .titulo2 {
+    font-family: "Frank Ruhl Libre2"
+  }
+
+  .category-name {
+    font-family: "Dancing Script";
+  }
+
   h2 {
     font-size: 40px;
+    font-family: "Dancing Script";
   }
 
   h3 {
