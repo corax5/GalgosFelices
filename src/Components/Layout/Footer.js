@@ -46,7 +46,7 @@ export const Footer = () => {
                             <div className="col-xl-6 col-lg-6 text-center text-lg-left">
                                 <div className="copyright-text">
                                     <p>
-                                        Copyright &copy; 2023, All Rights Reserved <a href="https://www.icortesdev.me/">Icortesdev</a>
+                                        Copyright &copy; 2023, All Rights Reserved <a href="https://www.icortes.dev/">Icortes.dev</a>
                                     </p>
                                 </div>
                             </div>
