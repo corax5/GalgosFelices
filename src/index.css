@@ -788,6 +788,12 @@ img {
     font-family: "Dancing Script";
   }
 
+  .home h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 19px;
+    color: #fff;
+  }
+
   h3 {
     margin-left: 20px;
     margin-top: 20px;
