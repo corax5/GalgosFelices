@@ -150,13 +150,44 @@ p {
 }
 
 .home .title a {
-  padding: 7px;
+  min-width: 130px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
   border-radius: 5px;
-  color: rgb(255 255 255);
-  background-color: #dd65f5;
-  text-decoration: none;
-
+  z-index: 0;
+  background: #fff;
+  overflow: hidden;
+  border: 2px solid #dd65f5;
+  color: #dd65f5;
 }
+
+.home .title a:hover {
+  color: #fff;
+}
+
+.home .title a:hover:after {
+  width: 100%;
+}
+
+.home .title a:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  transition: all 0.3s ease;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 100%;
+  background: #dd65f5;
+}
+
 
 
 .home strong {
@@ -166,7 +197,6 @@ p {
 .home .title a:hover,
 input[type="submit"]:hover,
 button :hover {
-  background-color: rgb(159, 204, 247);
   color: white
 }
 
@@ -700,7 +730,7 @@ img {
   -o-animation: dog .7s steps(7) infinite;
   animation: dog .7s steps(7) infinite;
   position: absolute;
-  margin-top: 0;
+  margin-top: 57px;
   left: 50%;
 
   transform: translate(-50%, -50%);
@@ -775,6 +805,40 @@ img {
     font-size: 30px;
   }
 
+  .home .title a {
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    z-index: 0;
+    background: #fff;
+    overflow: hidden;
+    border: 2px solid #dd65f5;
+    color: #dd65f5;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .home h1 {
+    font-size: 19px;
+    margin-right: 16px;
+    margin-left: 15px;
+  }
+
+  .botones {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+
+
   .titulo2 {
     font-family: "Frank Ruhl Libre2"
   }
@@ -843,7 +907,7 @@ img {
   }
 
   #dog {
-    margin-top: 126px;
+    margin-top: 95px;
   }
 
   .footer-section {
