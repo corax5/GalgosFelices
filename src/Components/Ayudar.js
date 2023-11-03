@@ -83,7 +83,7 @@ export const Ayudar = () => {
                                         Solo tienes que registrarte en Teaming, si no lo estás y unirte a nuestro grupo:
                                         <br />
                                         <br />
-                                        <a href='https://www.teaming.net/group/list?q=galgos%20felices%20fundacion' target="_blank">GRUPOR DE TEAMING</a>
+                                        <a href='https://www.teaming.net/group/list?q=galgos%20felices%20fundacion' target="_blank">GRUPO DE TEAMING</a>
                                     </p>
                                 </div>
 

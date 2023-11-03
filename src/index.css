@@ -44,10 +44,11 @@ h3 {
 p {
   margin-left: 50px;
   margin-left: 50px;
-
 }
 
-
+.conta {
+  font-size: 30px;
+}
 
 .header {
   height: 100%;
