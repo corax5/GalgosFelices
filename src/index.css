@@ -9,13 +9,13 @@ body {
 
 html {
   margin: 0;
-  width: fit-content;
+  width: 100%;
 }
 
 .layout {
   margin: 0;
   height: 100%;
-  width: 100%;
+  width: fit-content
 }
 
 code {
@@ -284,7 +284,7 @@ button :hover {
 
 .basic-card .card-text {
   line-height: 1.6;
-  margin: 0%;
+  margin: -2%;
 }
 
 .basic-card .card-link {
