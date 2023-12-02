@@ -16,23 +16,23 @@ export const Footer = () => {
             <footer className="footer-section">
 
                 <ul className="wrapper2">
-                    <li className="icon facebook" onClick={() => openInNewTab('https://www.facebook.com/people/Galgos-Felices-Fundacion/100066436192452/')}>
+                    <li className="icon facebook" onClick={() => openInNewTab('')}>
                         <span className="tooltip">Facebook</span>
                         <span><FontAwesomeIcon icon={faFacebook} /></span>
                     </li>
-                    <li className="icon twitter" onClick={() => openInNewTab('https://twitter.com/galgosfelicesf1')}>
+                    <li className="icon twitter" onClick={() => openInNewTab('')}>
                         <span className="tooltip">Twitter</span>
                         <span><FontAwesomeIcon icon={faTwitter} /></span>
                     </li>
-                    <li className="icon instagram" onClick={() => openInNewTab('https://www.instagram.com/galgosfelicesf_adopciones/')}>
+                    <li className="icon instagram" onClick={() => openInNewTab('')}>
                         <span className="tooltip">Instagram</span>
                         <span><FontAwesomeIcon icon={faInstagram} /></span>
                     </li>
-                    <li className="icon youtube" onClick={() => openInNewTab('https://www.youtube.com/channel/UC-HutoED0L3mSV4tX5zfClg')}>
+                    <li className="icon youtube" onClick={() => openInNewTab('')}>
                         <span className="tooltip">Youtube</span>
                         <span><FontAwesomeIcon icon={faYoutube} /></span>
                     </li>
-                    <li className="icon whatsapp" onClick={() => openInNewTab('https://wa.me/+34670373930')}>
+                    <li className="icon whatsapp" onClick={() => openInNewTab('')}>
                         <span className="tooltip">WhatsApp</span>
                         <span><FontAwesomeIcon icon={faWhatsapp} /></span>
                     </li>

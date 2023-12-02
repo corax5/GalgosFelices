@@ -17,21 +17,21 @@ export const Contacto = () => {
     return (
         <>
             <h2>Contacto:</h2><div className='contacto2'>
-                <p className='conta'>Disponemos de las siguientes redes sociales pero si quieres ponerte en contacto con nosotros, lo más rápido y sencillo es que nos mandes un WhatsApp al teléfono: <strong style={{ color: '#44e04b' }}><FontAwesomeIcon icon={faWhatsapp} /> <a className='enlace' href='https://wa.me/+34670373930' target="_blank">670373930</a></strong>       dinos en qué podemos ayudarte y te contestaremos lo más pronto posible.</p >
+                <p className='conta'>Disponemos de las siguientes redes sociales pero si quieres ponerte en contacto con nosotros, lo más rápido y sencillo es que nos mandes un WhatsApp al teléfono:<FontAwesomeIcon icon={faWhatsapp} />       dinos en qué podemos ayudarte y te contestaremos lo más pronto posible.</p >
             </div> <ul className="wrapper">
-                <li className="icon facebook" onClick={() => openInNewTab('https://www.facebook.com/people/Galgos-Felices-Fundacion/100066436192452/')}>
+                <li className="icon facebook" onClick={() => openInNewTab('')}>
                     <span className="tooltip">Facebook</span>
                     <span><FontAwesomeIcon icon={faFacebook} /></span>
                 </li>
-                <li className="icon twitter" onClick={() => openInNewTab('https://twitter.com/galgosfelicesf1')}>
+                <li className="icon twitter" onClick={() => openInNewTab('')}>
                     <span className="tooltip">Twitter</span>
                     <span><FontAwesomeIcon icon={faTwitter} /></span>
                 </li>
-                <li className="icon instagram" onClick={() => openInNewTab('https://www.instagram.com/galgosfelicesf_adopciones/')}>
+                <li className="icon instagram" onClick={() => openInNewTab('')}>
                     <span className="tooltip">Instagram</span>
                     <span><FontAwesomeIcon icon={faInstagram} /></span>
                 </li>
-                <li className="icon youtube" onClick={() => openInNewTab('https://www.youtube.com/channel/UC-HutoED0L3mSV4tX5zfClg')}>
+                <li className="icon youtube" onClick={() => openInNewTab('')}>
                     <span className="tooltip">Youtube</span>
                     <span><FontAwesomeIcon icon={faYoutube} /></span>
                 </li>

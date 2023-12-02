@@ -24,7 +24,7 @@ export const Ayudar = () => {
                                         Tu aportación es muy valiosa para que podamos seguir adelante con nuestro proyecto, rescatando perros del abandono y el maltrato.
                                         Si quieres ayudarnos  mediante transferencia bancaria:
                                         <br />
-                                        <strong> 3159 0006 5127 6628 9728</strong>
+                                        <strong> </strong>
                                     </p>
                                 </div>
 
@@ -52,7 +52,7 @@ export const Ayudar = () => {
                                         Accede a Bizum desde la app de tu banco, busca la opción «Enviar y Recibir dinero con bizum«,
                                         <br />
                                         teclea la cantidad de dinero que quieras enviar y como destinatario, este número de teléfono:
-                                        <br /> <strong> +34 670373930.</strong>
+                                        <br /> <strong>.</strong>
                                     </p>
                                 </div>
 
@@ -83,7 +83,7 @@ export const Ayudar = () => {
                                         Solo tienes que registrarte en Teaming, si no lo estás y unirte a nuestro grupo:
                                         <br />
                                         <br />
-                                        <a href='https://www.teaming.net/group/list?q=galgos%20felices%20fundacion' target="_blank">GRUPO DE TEAMING</a>
+                                        <a href='' target="_blank">GRUPO DE TEAMING</a>
                                     </p>
                                 </div>
 
